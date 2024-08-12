@@ -1,14 +1,26 @@
-import React from 'react'
-function Chai(){
-  return(
-    <div className=" flex justify-around ">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6Dmtr4-SBi78he6RRossByFMxGKpNM0IUA&s" alt="Description of the image" ></img>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5HOGBIxxI4K8BQ2Ecmoz2YcxpX5ClL4JJA&s" alt="Description of the image"></img>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKGfJn0ohHQ2WMNeNiSNAKVaKSUCORJxS6w&s" alt="Description of the image"></img>
-     </div>
-  )
+import React from 'react';
+
+function Chai() {
+  return (
+    <div className="flex justify-around">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6Dmtr4-SBi78he6RRossByFMxGKpNM0IUA&s"
+        alt="Image of a cup of chai with spices"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5HOGBIxxI4K8BQ2Ecmoz2YcxpX5ClL4JJA&s"
+        alt="Image of a teapot with chai"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKGfJn0ohHQ2WMNeNiSNAKVaKSUCORJxS6w&s"
+        alt="Image of chai being poured into a cup"
+      />
+    </div>
+  );
 }
+
 export default Chai;
+
 /*import { useState } from "react";
 
 
